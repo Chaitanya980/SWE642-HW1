@@ -1,0 +1,138 @@
+/* Set background color for the whole page */
+body {
+    background-color: lightgray; 
+    font-family: Arial, sans-serif;
+}
+/* Styling for h1 elements */
+h1 {
+    color: #016d37; 
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #006633; 
+    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.3);
+}
+/* Custom class for GMU-themed elements */
+.gmu-highlight {
+    background-color: #FFCC33; 
+    color: #006633; 
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Header styling */
+.header {
+    background-color: #006633;
+    padding: 10px 10px 100px;
+    border-bottom: 4px solid #FFCC33
+}
+.header img {
+    height: 50px;
+
+}
+.nav-bar a {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.nav-bar a:hover {
+    color: #FFCC33;
+}
+/* Styling for the section container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+/* Styling for list items */
+.list-group-item {
+    background-color: #ffffff;
+    border-left: 5px solid #006633;
+    transition: background 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: gold;
+    color: #006633;
+}
+
+/* Styling for tables */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    border-bottom: 2px solid #343a40;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #006633;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: 3px solid #FFCC33;
+}
+.about-para {
+    padding: 15px; 
+    margin-bottom: 0px; 
+    line-height: 1.5; 
+
+}
+
+/* Table headers */
+.table thead {
+    background-color:lightgreen!important;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+.table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect */
+.table tbody tr:hover {
+    background-color:yellow;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Table border rounding */
+.table th:first-child,
+.table td:first-child {
+    border-left: 2px solid #343a40;
+}
+
+.table th:last-child,
+.table td:last-child {
+    border-right: 2px solid #343a40;
+}
+
+/* Make table responsive */
+@media screen and (max-width: 768px) {
+    .table th, .table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+.hello-text {
+    color: gold;
+    font-weight: bold;
+    font-size: 26px; 
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: inline-block;
+}

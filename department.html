@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Department Information Page</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="javascript" href="./bootstrap.min.js">
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="department.css">
+</head>
+
+<body>
+    <!-- Header contains CS Department logo and Page link -->
+    <header class="header p-4">
+        <div class="container-fluid d-flex flex-row justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="images/gmu_logo.jpg" alt="CS department logo">
+                <span class="hello-text ms-2">GEORGE MASON UNIVERSITY</span>
+            </div>
+            <nav class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="survey.html">Student Survey Form</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Section 1 : Department Info with couple of paragraphs-->
+        <section class="pb-4">
+            <div class="container p-4">
+                <h1 class=" h1 pr-2 mb-5 d-flex justify-content-center">Computer Science Department 
+                </h1>
+                <h2 class="h2">Department Description</h1>
+                    <p class="about-para p-4">
+                        The Computer Science discipline is concerned with the design, analysis, implementation,
+                        maintenance, and evolution of computer-based systems, and their associated theoretical
+                        foundations. Computer science is powering the information revolution of the 21st century, and
+                        computer-based systems are used in every scholarly discipline, every sector of industry, and
+                        every walk of human life.
+                        <br><br>
+                        Advanced computation tools and techniques are revolutionizing, transforming, and often
+                        automating the way we work, play, communicate, collaborate, and conduct business. Computational
+                        approaches are integral to a broad array of disciplines including computational natural and
+                        social sciences, bioinformatics, health informatics, digital humanities, and financial
+                        technology. In addition, the spread of computing throughout society has made the ethical use of
+                        computing a central concern to policymakers.
+                        <br><br>
+                        Computer scientists must be well-grounded in the theory of computing and in its application to
+                        diverse areas, and they must be able to work closely with members of other professions that use
+                        computing. The department therefore offers a broad array of programs in computer science at both
+                        the undergraduate and graduate levels. Students who study this discipline can learn about a wide
+                        variety of concepts and methods in computer science—algorithms, artificial intelligence,
+                        computer networking, cyber security, databases, data mining, data structures, machine learning,
+                        operating systems, programming languages, robotics, software engineering—and they will explore
+                        effective and ethical applications of these concepts and methods.
+                    </p>
+                    
+            </div>
+        </section>
+        <!-- Section 2 :  MS Degrees List at the CS Department-->
+        <section class="pb-4">
+            <div class="container">
+                <h3 class="h3 mt-2 mb-2">List of Master's Degree Programs</h3>
+                <ul class="list-group border border-dark mt-4 mb-4">
+                    <li class="list-group-item list-group-item-action">Computer Science(CS) </li>
+                    <li class="list-group-item list-group-item-action">Software Engineering (SWE) </li>
+                    <li class="list-group-item list-group-item-action">Information Security and Assurance (ISA)</li>
+                    <li class="list-group-item list-group-item-action">Information Systems (INFS) </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Section 3:  Required courses for each degree-->
+        <section class="pb-5">
+            <div class="container">
+                <h3 class="h3 p-2">Required Courses</h3>
+                <p class="p-2">
+                    The table below outlines the required courses for each MS degree program, with columns for Course Number and Required Course Name.
+                </p>
+        
+                <!-- CS -->
+                <h4 class="mt-4">Computer Science (CS) </h4>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Course Number</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CS 530</td>
+                            <td>Mathematical Foundations of Computer Science</td>
+                        </tr>
+                        <tr>
+                            <td>CS 531</td>
+                            <td>Computer Systems and  Systems Programming</td>
+                        </tr>
+                        <tr> 
+                            <td>CS 583</td>
+                            <td>Analysis of Algorithms</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- SWE -->
+                <h4 class="mt-4">Software Engineering (SWE) </h4>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Course Number</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SWE 637</td>
+                            <td>Software Testing</td>
+                        </tr>
+                        <tr></tr>
+                            <td>SWE 692</td>
+                            <td>Object Oriented Programming</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- INFS -->
+                <h4 class="mt-4">Information Systems (INFS) </h4>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Course Number</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>INFS 550</td>
+                            <td>Database Systems</td>
+                        </tr>
+                        <tr>
+                            <td>INFS 612</td>
+                            <td>Principles and Practices of Communication Networks</td>
+                        </tr>
+                        <tr>
+                            <td>INFS 622</td>
+                            <td>Information Systems Analysis and Design</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+                <!-- ISA -->
+                <h4 class="mt-4">Information Security and Assurance (ISA)</h4>
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Course Number</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ISA 650</td>
+                            <td>Network Security Policy</td>
+                        </tr>
+                        <tr>
+                            <td>ISA 652</td>
+                            <td>Security Audit and Testing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <span><small>&copy; Chaitanya Chaudhari | 2025 </small> </span>
+    </footer>
+</body>
+
+</html>
