@@ -1,3 +1,5 @@
+SWE642 Assignment 1
+
 This assignment contains:
 
 A index.html page - Has my personal Introduction page with a picture and brief description about myself. A student class Webpage. It contains links to CS Department Information page and Studnet Survey Form . You can find the button link on top at the header section of this page.
